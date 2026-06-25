@@ -31,7 +31,15 @@ export const Card = ({ title, price, description }: CardProps) => {
         )}
         <span className="text-text-secundary text-center">{description}</span>
 
-        <button className="bg-brand-bg py-2 px-5 rounded-full text-zinc-900 font-aeonik font-bold text-2xl absolute bottom-6">
+        <button
+          onClick={() =>
+            window.open(
+              "https://www.pensanoevento.com.br/sitev2/eventos/104149/18-anos-carreira-maiara-coelho",
+              "_blank",
+            )
+          }
+          className="bg-brand-bg py-2 px-5 rounded-full text-zinc-900 font-aeonik font-bold text-2xl absolute bottom-6 cursor-pointer"
+        >
           COMPRE AGORA
         </button>
       </div>

@@ -16,7 +16,7 @@ export const Tickets = () => {
           </span>
         </span>
 
-        <div className="flex gap-4 mt-10">
+        <div className="flex gap-4 mt-13">
           <Card
             title="PISTA"
             price={30}

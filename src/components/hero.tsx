@@ -3,15 +3,15 @@ import { Band } from "./band";
 
 export const Hero = () => {
   return (
-    <section className="flex min-h-screen w-full items-start justify-center overflow-visible overflow-x-hidden pb-20 bg-brand-bg">
-      <div className="relative w-full">
+    <section className="w-full overflow-hidden bg-brand-bg">
+      <div className="flex w-full flex-col items-center pb-6 sm:pb-8 lg:pb-10">
         <img
           src={hero}
           alt="Texas Sunset"
           className="block h-auto max-h-screen w-full"
         />
 
-        <div className="absolute bottom-0 left-1/2 w-[120%] -translate-x-1/2 translate-y-1/2">
+        <div className="-mt-4 w-[108%] sm:-mt-6 sm:w-[112%] lg:-mt-8 lg:w-[120%]">
           <Band />
         </div>
       </div>
