@@ -9,7 +9,7 @@ export const MaiSection = () => {
             Coelho
           </h2>
 
-          <p className="mt-5 text-[0.875rem] leading-[1.2] uppercase text-[#3b241d] max-w-sm">
+          <p className="mt-5 text-[0.875rem] leading-[1.2] text-[#3b241d] max-w-sm">
             Maiara Coelho é cantora e compositora catarinense, natural de
             Palhoça (SC), com uma trajetória iniciada em 2008. Em agosto de
             2026, celebra 18 anos de carreira, consolidando seu nome como uma
