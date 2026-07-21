@@ -5,7 +5,7 @@ import { Band } from "./band";
 export const Localization = () => {
   return (
     <section
-      className="bg-brand-bg py-30 mt-10 flex flex-col items-center justify-center relative"
+      className="bg-brand-bg pb-30 mt-10 flex flex-col items-center justify-center relative"
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="bg-pink-bg p-2 px-10 mb-5 absolute -top-7">
@@ -14,7 +14,7 @@ export const Localization = () => {
         </strong>
       </div>
       <div className="flex flex-col items-center w-full overflow-x-hidden relative">
-        <img src={palco} alt="palco" className="w-[80%] z-20" />
+        <img src={palco} alt="palco" className="w-[80%] z-20 mt-30" />
         <div className="absolute -rotate-6 top-40 z-10">
           <Band />
         </div>
