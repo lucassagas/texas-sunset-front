@@ -8,12 +8,12 @@ export const Localization = () => {
       className="bg-brand-bg py-30 mt-10 flex flex-col items-center justify-center relative"
       style={{ backgroundImage: `url(${bg})` }}
     >
+      <div className="bg-pink-bg p-2 px-10 mb-5 absolute -top-7">
+        <strong className="text-tertiary font-thunderhouse text-4xl font-normal">
+          MAPA DO LOCAL
+        </strong>
+      </div>
       <div className="flex flex-col items-center w-full overflow-x-hidden relative">
-        <div className="bg-pink-bg p-2 px-10 mb-5 absolute -top-7">
-          <strong className="text-tertiary font-thunderhouse text-4xl font-normal">
-            MAPA DO LOCAL
-          </strong>
-        </div>
         <img src={palco} alt="palco" className="w-[80%] z-20" />
         <div className="absolute -rotate-6 top-40 z-10">
           <Band />
