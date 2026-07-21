@@ -1,31 +1,24 @@
 import { FaInstagram, FaYoutube, FaFacebookF } from "../assets/icons";
-import mai from "../assets/footer/mai.png";
+import mai from "../assets/footer/mai.webp";
 import logo from "../assets/logo.png";
+import heroBg from "../assets/hero_bg.webp";
 
 export const Footer = () => {
   return (
-    <footer className="bg-brand-bg py-12lg:py-16 mt-10">
+    <footer className="bg-brand-bg py-12lg:py-16 mt-15 ">
+      <div className="flex justify-center mb-10 px-4">
+        <div className="w-full max-w-4xl aspect-video rounded-2xl overflow-hidden shadow-lg">
+          <iframe
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/gPaWiJM3DKo"
+            title="Texas Sunset Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </div>
       <div className="flex relative">
-        <img src={mai} alt="mai" className="max-w-250 -ml-30 z-20" />
-        <span className="font-thunderhouse mt-30 -ml-30">
-          <span className="text-9xl text-primary">ME CONTA:</span>{" "}
-          <span className="text-9xl text-tertiary"> VOCÊS</span> <br />{" "}
-          <span className="text-[77px] text-tertiary leading-6">
-            PRETENDEM IR EM QUANTAS
-          </span>{" "}
-          <br />
-          <span className="text-tertiary text-[60px] leading-14">
-            PESSOAS? TENHO CERTEZA QUE CONSIGO
-          </span>{" "}
-          <br />{" "}
-          <span className="text-tertiary text-[124px] leading-26">
-            INDICAR A MELHOR
-          </span>{" "}
-          <br />{" "}
-          <span className="text-tertiary text-[77px] leading-18">
-            OPÇÃO PARA O SEU GRUPO! 🤠🔥
-          </span>
-        </span>
+        <img src={mai} alt="mai" className="w-180 -ml-20 z-20" />
         <div className="absolute flex flex-col bottom-30 right-20 z-40">
           <img src={logo} alt="logo" className="w-100" />
           <div className="flex gap-3 items-center justify-center mt-10">
@@ -50,7 +43,7 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="h-125 bg-primary w-full absolute bottom-0 z-10" />
+        <div className="h-125 bg-primary w-full absolute bottom-0 z-10"       style={{ backgroundImage: `url(${heroBg})` }} />
       </div>
     </footer>
   );

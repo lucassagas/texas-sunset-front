@@ -4,18 +4,19 @@ import { Hero } from "./components/hero";
 import { Localization } from "./components/localization";
 import { MaiSection } from "./components/mai-section";
 import { Participations } from "./components/participations";
-import { Tickets } from "./components/tickets";
+import { SubHero } from "./components/sub-hero";
 import { Layout } from "./layout";
 
 function App() {
   return (
     <Layout>
       <Hero />
+      <SubHero />
       <MaiSection />
       <EventDate />
       <Participations />
       <Localization />
-      <Tickets />
+      {/*<Tickets />*/}
       <Footer />
     </Layout>
   );
