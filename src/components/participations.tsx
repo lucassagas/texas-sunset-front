@@ -1,5 +1,8 @@
 import mai from "../assets/participants/participant_mai.webp";
 import participants from "../assets/participants/participants.webp";
+import artistas from '../assets/participations-cards/artistas.png'
+import doisPalcos from '../assets/participations-cards/dois_palcos.png'
+import estrutura from '../assets/participations-cards/estrutura.png'
 
 export const Participations = () => {
   return (
@@ -36,7 +39,8 @@ export const Participations = () => {
         </div>
 
         <div className="w-[90%] flex gap-4 items-center justify-between mt-10">
-          <div className="bg-[#6c2b19] h-100 p-5 flex rounded-3xl rounded-tr-[100px] max-w-80 w-full">
+          <div className="bg-[#6c2b19] h-110 p-5 flex rounded-[40px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
+            <img src={artistas} alt="artistas" className="absolute -top-6 w-full left-0" />
             <span className="text-xl text-white mt-auto">
               ARTISTAS <br />
               CONVIDADOS DE <br />
@@ -45,7 +49,8 @@ export const Participations = () => {
               </strong>
             </span>
           </div>
-          <div className="bg-[#6c2b19] h-100 p-5 flex rounded-3xl rounded-tr-[100px] max-w-80 w-full">
+          <div className="bg-[#6c2b19] h-110 p-5 flex rounded-[40px] rounded-tl-[45px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
+            <img src={doisPalcos} alt="dois palcos" className="absolute -top-1 w-full left-0" />
             <span className="text-xl text-white mt-auto">
               <strong className="text-4xl font-thunderhouse tracking-[2px] font-normal">
                 DOIS PALCOS
@@ -56,7 +61,8 @@ export const Participations = () => {
               TODO O EVENTO;
             </span>
           </div>
-          <div className="bg-[#6c2b19] h-100 p-5 flex rounded-3xl rounded-tr-[100px] max-w-80 w-full">
+          <div className="bg-[#6c2b19] h-110 p-5 flex rounded-[40px] rounded-tl-[42px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
+            <img src={estrutura} alt="estrutura" className="absolute -top-1 w-full left-0" />
             <span className="text-xl text-white mt-auto">
               <strong className="text-4xl font-thunderhouse tracking-[2px] font-normal">
                 ESTRUTURA <br />
@@ -70,7 +76,8 @@ export const Participations = () => {
               </strong>
             </span>
           </div>
-          <div className="bg-[#6c2b19] h-100 p-5 flex rounded-3xl rounded-tr-[100px] max-w-80 w-full">
+          <div className="bg-[#6c2b19] h-110 p-5 flex rounded-[40px] rounded-tl-[42px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
+                   <img src={estrutura} alt="estrutura" className="absolute -top-1 w-full left-0" />
             <span className="text-xl text-white mt-auto">
               PRAÇA DE <br />
               ALIMENTAÇÃO,

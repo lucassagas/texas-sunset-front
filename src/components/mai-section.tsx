@@ -1,3 +1,5 @@
+import { MaiCarousel } from "./mai-carousel";
+
 export const MaiSection = () => {
   return (
     <section className="bg-brand-bg px-6 py-12 md:px-10 lg:px-16 lg:py-16">
@@ -27,20 +29,7 @@ export const MaiSection = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-center -mb-5">
-          <div className="flex w-full items-center justify-center rounded-[18px] bg-primary shadow-[0_12px_30px_rgba(0,0,0,0.08)] md:h-95 md:max-w-85">
-            <span className="font-aeonik text-lg uppercase tracking-wide text-white md:text-xl">
-              FOTOS MAI
-            </span>
-          </div>
-
-          <div className="mt-4 flex items-center gap-1.5">
-            <span className="h-1.5 w-1.5 rounded-full bg-zinc-500" />
-            <span className="h-1.5 w-1.5 rounded-full bg-zinc-500" />
-            <span className="h-1.5 w-1.5 rounded-full bg-zinc-500" />
-            <span className="h-1.5 w-1.5 rounded-full bg-zinc-500" />
-          </div>
-        </div>
+        <MaiCarousel />
 
         <div className="justify-self-start lg:justify-self-end">
           <h3 className="font-thunderhouse text-[4.25rem] leading-[0.82] uppercase text-primary md:text-[5.25rem] lg:text-[7.8rem]">
