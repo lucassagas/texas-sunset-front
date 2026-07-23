@@ -37,7 +37,7 @@ export const Participations = () => {
               </strong>{" "}
               <br /> JÁ{" "}
               <strong className="font-thunderhouse font-normal text-7xl">
-                CONFIRMADA
+                CONFIRMADAS
               </strong>
             </p>
           </span>
