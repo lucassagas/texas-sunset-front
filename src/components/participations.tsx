@@ -1,8 +1,9 @@
 import mai from "../assets/participants/participant_mai.webp";
 import participants from "../assets/participants/participants.webp";
-import artistas from '../assets/participations-cards/artistas.png'
-import doisPalcos from '../assets/participations-cards/dois_palcos.png'
-import estrutura from '../assets/participations-cards/estrutura.png'
+import artistas from "../assets/participations-cards/artistas.png";
+import doisPalcos from "../assets/participations-cards/dois_palcos.png";
+import estrutura from "../assets/participations-cards/estrutura.png";
+import praca from "../assets/participations-cards/praca.png";
 
 export const Participations = () => {
   return (
@@ -17,11 +18,13 @@ export const Participations = () => {
           <span className="absolute top-[50%] right-[15%]  text-white">
             <p className="text-4xl font-aeonik">Show completo de</p>{" "}
             <p className="text-7xl font-thunderhouse">MAIARA COELHO</p>
-             <p className="text-2xl font-aeonik text-pink-bg -mt-2">Gravação de DVD</p>
+            <p className="text-2xl font-aeonik text-pink-bg -mt-2">
+              Gravação de DVD
+            </p>
           </span>
         </div>
 
-        <div className="w-[90%] relative -mt-10">
+        <div className="w-[90%] relative -mt-14">
           <img
             src={participants}
             className="w-full max-w-none"
@@ -33,14 +36,20 @@ export const Participations = () => {
                 ATRAÇÕES NACIONAIS
               </strong>{" "}
               <br /> JÁ{" "}
-              <strong className="font-thunderhouse font-normal text-7xl">CONFIRMADA</strong>
+              <strong className="font-thunderhouse font-normal text-7xl">
+                CONFIRMADA
+              </strong>
             </p>
           </span>
         </div>
 
         <div className="w-[90%] flex gap-4 items-center justify-between mt-10">
-          <div className="bg-[#6c2b19] h-110 p-5 flex rounded-[40px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
-            <img src={artistas} alt="artistas" className="absolute -top-6 w-full left-0" />
+          <div className="bg-[#6c2b19] h-106 p-5 flex rounded-[40px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
+            <img
+              src={artistas}
+              alt="artistas"
+              className="absolute -top-2 w-full left-0"
+            />
             <span className="text-xl text-white mt-auto">
               ARTISTAS <br />
               CONVIDADOS DE <br />
@@ -49,8 +58,12 @@ export const Participations = () => {
               </strong>
             </span>
           </div>
-          <div className="bg-[#6c2b19] h-110 p-5 flex rounded-[40px] rounded-tl-[45px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
-            <img src={doisPalcos} alt="dois palcos" className="absolute -top-1 w-full left-0" />
+          <div className="bg-[#6c2b19] h-106 p-5 flex rounded-[40px] rounded-tl-[45px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
+            <img
+              src={doisPalcos}
+              alt="dois palcos"
+              className="absolute -top-15 w-full left-0"
+            />
             <span className="text-xl text-white mt-auto">
               <strong className="text-4xl font-thunderhouse tracking-[2px] font-normal">
                 DOIS PALCOS
@@ -61,8 +74,12 @@ export const Participations = () => {
               TODO O EVENTO;
             </span>
           </div>
-          <div className="bg-[#6c2b19] h-110 p-5 flex rounded-[40px] rounded-tl-[42px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
-            <img src={estrutura} alt="estrutura" className="absolute -top-1 w-full left-0" />
+          <div className="bg-[#6c2b19] h-106 p-5 flex rounded-[40px] rounded-tl-[42px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
+            <img
+              src={estrutura}
+              alt="estrutura"
+              className="absolute -top-1 w-full left-0"
+            />
             <span className="text-xl text-white mt-auto">
               <strong className="text-4xl font-thunderhouse tracking-[2px] font-normal">
                 ESTRUTURA <br />
@@ -76,8 +93,12 @@ export const Participations = () => {
               </strong>
             </span>
           </div>
-          <div className="bg-[#6c2b19] h-110 p-5 flex rounded-[40px] rounded-tl-[42px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
-                   <img src={estrutura} alt="estrutura" className="absolute -top-1 w-full left-0" />
+          <div className="bg-[#6c2b19] h-106 p-5 flex rounded-[40px] rounded-tl-[42px] rounded-tr-[100px] max-w-80 w-full relative overflow-hidden">
+            <img
+              src={praca}
+              alt="estrutura"
+              className="absolute -top-1 w-full left-0"
+            />
             <span className="text-xl text-white mt-auto">
               PRAÇA DE <br />
               ALIMENTAÇÃO,
