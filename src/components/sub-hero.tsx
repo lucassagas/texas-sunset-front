@@ -11,7 +11,7 @@ export const SubHero = () => {
       <div>
         <TbCalendarStats size={43} className="stroke-orange-bg mb-4" />
         <strong className="text-white font-thunderhouse font-normal text-8xl">15 DE AGOSTO</strong>
-        <p className="text-white text-2xl">Início ás 12:00</p>
+        <p className="text-white text-2xl">Início às 12:00</p>
       </div>
       <div className="h-40 w-px bg-white rounded" />
       <div className="flex flex-col text-center font-thunderhouse">
